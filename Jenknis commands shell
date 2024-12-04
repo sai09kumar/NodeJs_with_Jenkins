@@ -1,0 +1,5 @@
+cd /home/ubuntu/repo-name
+
+npm install
+
+pm2 start "npm run start" --new-process
